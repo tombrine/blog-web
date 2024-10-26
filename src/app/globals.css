@@ -1,0 +1,269 @@
+img {
+  height: auto;
+  width: 280px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 0;
+}
+
+.all_blog_post {
+  margin-bottom: 0;
+  margin-left: 527px;
+  font-weight: 700;
+  font-size: 27px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  min-height: 70vh;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+  margin-top: 10px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.profile_image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.blog_card {
+  height: 380px;
+  width: 300px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.user_date {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: gray;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 17px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin-bottom: 20px;
+}
+
+.flare_tag {
+  border: 1px solid rgb(237, 246, 249);
+  border-radius: 5px;
+  background-color: rgb(237, 246, 249);
+  width: 100px;
+  font-size: 13px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  color: blue;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 430px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btns button {
+  width: 50;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.btns p {
+  font-size: 50px;
+}
+
+.product_image {
+  height: 400px;
+  width: 800px;
+  border-radius: 0;
+  margin-bottom: 15px;
+}
+
+.blog_infos {
+  font-family: sans-serif;
+  width: 800px;
+  margin-left: 600px;
+}
+
+.user_info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.user_info div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.product_title {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.product_description {
+  font-size: 21.5px;
+  margin-bottom: 10px;
+}
+
+.header {
+  width: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: black;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 450px;
+  display: flex;
+  align-items: center;
+  gap: 900px;
+}
+
+.home_btn {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 650;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+}
+
+.create_post {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 30px;
+  width: 95px;
+  text-align: center;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.create_blog {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs :nth-child(1) {
+  height: 200px;
+  width: 1000px;
+  font-size: 50px;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.inputs :nth-child(1):focus {
+  outline: none;
+}
+
+.inputs :nth-child(3) {
+  height: 500px;
+  width: 1000px;
+  font-size: 35px;
+  padding: 10px;
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
+.inputs :nth-child(3):focus {
+  outline: none;
+}
+
+.publish_btn {
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 100px;
+  height: 22px;
+  text-align: center;
+  padding: 3px;
+}
